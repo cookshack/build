@@ -7,5 +7,6 @@
     "type": "git",
     "url": "git+https://git.sr.ht/~mattmundell/build"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [ "bin" ]
 }
