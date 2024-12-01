@@ -1,8 +1,10 @@
 image: alpine/3.20
 packages:
+  - node
   - npm
 secrets:
   - e2e843cf-6f7e-4b74-989f-819a97ca70b8
+  - 693e186a-109b-4e62-9d15-a123679909cc
 sources:
   - git+ssh://git@git.sr.ht/~mattmundell/build
 environment:
@@ -10,3 +12,5 @@ environment:
 tasks:
   - mirror: |
       cd $PKG && ./bin/mirror
+  - publish: |
+      cd $PKG && ./bin/publish
