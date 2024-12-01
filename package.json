@@ -1,0 +1,11 @@
+{
+  "name": "@cookshack/build",
+  "version": "0.1.0",
+  "description": "Build scripts for Cookshack NPM packages",
+  "homepage": "https://git.sr.ht/~mattmundell/build",
+  "repository": {
+    "type": "git",
+    "url": "git+https://git.sr.ht/~mattmundell/build"
+  },
+  "license": "MIT"
+}
