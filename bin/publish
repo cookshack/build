@@ -11,6 +11,7 @@ if [ "$CURRENT" != "$VERSION" ]; then
   echo Publishing...
   npm i
   npm publish --access public
+  echo https://www.npmjs.com/package/$NAME
 else
   echo Up to date.
 fi
